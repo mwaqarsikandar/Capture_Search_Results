@@ -5,7 +5,7 @@ try:
 except ImportError:
     print("No module named 'google' found")
 
-# to search
+# to search for query = "Geeksforgeeks"
 query = "Geeksforgeeks"
 with open('top.csv', 'w', newline='') as file:
     fieldnames = ['Results']
